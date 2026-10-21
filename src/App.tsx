@@ -63,9 +63,9 @@ function App() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#home" aria-label="FitLife home" onClick={() => setMenuOpen(false)}>
+        <a className="brand" href="#home" aria-label="Neighborhood Gym home" onClick={() => setMenuOpen(false)}>
           <span className="brand-mark"><Dumbbell size={20} strokeWidth={2.8} /></span>
-          FIT<span>LIFE</span><i>.</i>
+          NEIGHBORHOOD<span>GYM</span><i>.</i>
         </a>
         <nav className={menuOpen ? "nav nav-open" : "nav"} aria-label="Main navigation">
           {navItems.map((item) => (
@@ -91,14 +91,14 @@ function App() {
           <p>Build strength. Find your people. Feel unstoppable. Your goals are personal — your training should be too.</p>
           <div className="hero-actions">
             <button className="button button-hero" onClick={() => scrollTo("#pricing")}>Find your plan <ArrowRight size={18} /></button>
-            <button className="play-link" onClick={() => scrollTo("#about")}><span className="play-circle"><Play size={14} fill="currentColor" /></span> Discover FitLife</button>
+            <button className="play-link" onClick={() => scrollTo("#about")}><span className="play-circle"><Play size={14} fill="currentColor" /></span> Discover Neighborhood Gym </button>
           </div>
         </div>
         <a className="scroll-cue" href="#about"><span>SCROLL TO FEEL IT</span><ArrowDown size={29} /></a>
         <div className="hero-bottom-note">TRAIN HARD. LIVE WELL.</div>
       </section>
 
-      <section className="ticker" aria-label="FitLife values">
+      <section className="ticker" aria-label="Neighborhood Gym values">
         <div className="ticker-track">
           {Array.from({ length: 2 }).map((_, index) => (
             <div className="ticker-group" key={index}>
@@ -109,7 +109,7 @@ function App() {
       </section>
 
       <section className="about section-pad" id="about">
-        <div className="section-kicker"><span>01 / THE FITLIFE WAY</span><span className="kicker-line" /></div>
+        <div className="section-kicker"><span>01 / THE NEIGHBORHOOD GYM WAY</span><span className="kicker-line" /></div>
         <div className="about-grid">
           <div>
             <h2>MORE THAN A<br />GYM. <span>YOUR</span><br /><span className="outline-word">HAPPY PLACE.</span></h2>
@@ -139,7 +139,7 @@ function App() {
       <section className="quote-band">
         <div className="quote-symbol">“</div>
         <p>YOU DON'T HAVE TO BE<br />GREAT TO <span>START.</span></p>
-        <div className="quote-bottom"><span>JUST START. WE'LL GO FROM THERE.</span><span>FITLIFE / EST. 2024</span></div>
+        <div className="quote-bottom"><span>JUST START. WE'LL GO FROM THERE.</span><span>NEIGHBORHOOD GYM / EST. 2024</span></div>
         <div className="quote-orbit" />
       </section>
 
@@ -174,7 +174,7 @@ function App() {
           <h2>LET'S MAKE<br />SOMETHING <span>HAPPEN.</span></h2>
           <p>Questions, goals, or just want to see the space? We're all ears. Your first step can be a simple hello.</p>
           <div className="contact-detail"><span className="contact-detail-icon">✳</span><div><small>COME FIND US</small><strong>24 Motion Street, Your City</strong></div></div>
-          <div className="contact-detail"><span className="contact-detail-icon">@</span><div><small>DROP US A LINE</small><strong>hello@fitlife.club</strong></div></div>
+          <div className="contact-detail"><span className="contact-detail-icon">@</span><div><small>DROP US A LINE</small><strong>hello@neighborhoodgym.club</strong></div></div>
           <div className="socials"><a href="https://instagram.com" aria-label="Instagram"><Instagram /></a><a href="https://facebook.com" aria-label="Facebook"><Facebook /></a><a href="https://youtube.com" aria-label="YouTube"><Youtube /></a></div>
         </div>
         <div className="contact-form-wrap">
@@ -195,8 +195,8 @@ function App() {
       </section>
 
       <footer className="footer">
-        <a className="brand footer-brand" href="#home"><span className="brand-mark"><Dumbbell size={18} strokeWidth={2.8} /></span> FIT<span>LIFE</span><i>.</i></a>
-        <span>© 2026 FITLIFE CLUB. BUILT FOR YOUR NEXT CHAPTER.</span>
+        <a className="brand footer-brand" href="#home"><span className="brand-mark"><Dumbbell size={18} strokeWidth={2.8} /></span> Neighborhood<span>GYM</span><i>.</i></a>
+        <span>© 2026 NEIGHBORHOOD GYM CLUB. BUILT FOR YOUR NEXT CHAPTER.</span>
         <a className="back-top" href="#home">BACK TO TOP <MoveUpRight size={15} /></a>
       </footer>
     </main>
